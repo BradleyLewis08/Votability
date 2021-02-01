@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Votability</title>
+	<link rel="stylesheet" type="text/css" href="/static/parties_styles.css" />
+	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+	<div class="main">
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li class="active"><a href="/about">About</a></li>
+			<li><a href="/navigation">Navigation</a></li>
+			<li><a href="/candidates">Candidates</a></li>
+			<li><a href="/parties">Parties</a></li>
+			<li><a href="/polling">Polling</a></li>
+			<li><a href="/profile">Profile</a></li>
+			{% if "logged_in" not in session %}
+				<li><a href="/signup">Signup</a></li>
+				<li><a href="/login">Login</a></li>
+			{% endif %}
+		</ul>
+	</div>
+	<div class="title">
+		<h1>Votability</h1>
+	</div>
+	<div class="start">
+	<br>
+		<center><h1>Voting in the United States</h1>
+		<table border="5">
+		<tr>
+		<td width="700px">
+		 The law does not require citizens to vote, but voting is a very important part of any democracy. By voting, citizens are participating in the democratic process. Citizens vote for leaders to represent them and their ideas, and the leaders support the citizens' interests.
+		</td>
+		</tr>
+		</table>
+		</center>
+	</div>
+	<div class="info">
+	<center>
+		<table border="2" id="vote">
+		<tr>
+		<td width="100px">Eligibility</td>
+		<td width="700px"><ol><li>The eligibility of an individual for voting is set out in the constitution and also regulated at state level.</li><li> The constitution states that suffrage cannot be denied on grounds of race or color, sex, or age for citizens eighteen years or older.</li><li> Beyond these basic qualifications, it is the responsibility of state legislatures to regulate voter eligibility.</li></ol>
+		</tr>
+		<tr>
+		<td>Register to vote</td>
+		<td>Each state makes its own voting and election rules, including when and how to register. <br>Check with your state or local election office to get the most detailed and up-to-date information for where you live.<br>Use <a href="https://vote.gov/">https://vote.gov/</a> to register your vote.</td> 
+		</tr>
+		<tr>
+		<td>Confirm Your Voter Registration Status</td>
+		<td>To confirm that you’re registered to vote in the upcoming election, check your voter registration status. <br>You’ll also be able to verify your polling location. </td>
+		</tr>
+		<tr>
+		<td>Can I Vote Online?</td>
+		<td>No, in federal elections in the United States you can't vote online. <br><br>In most elections in the United States, you either need to vote in-person at an official polling place or by casting an absentee ballot.</td>
+		</tr>
+		<tr>
+		<td>Voter ID Requirements</td>
+		<td>Two-thirds of states expect you to provide identification to let you vote at the polls.</td>
+		</tr>
+		<tr>
+		<td>Photo ID</td>
+		<td>About half of the states with voter ID laws accept only photo IDs. These include<ol>
+
+		<li>driver’s licenses</li>
+		<li>state-issued ID cards </li>
+		<li>military ID cards </li>
+		<li>passports</li></ol> </td>
+		</tr>
+		<tr>
+		<td>Non-Photo ID</td>
+		<td>These may include
+
+		<ol><li>birth certificates </li>
+		<li>Social Security cards </li>
+		<li>bank statements </li>
+		<li>utility bills</li></ol> </td>
+		</tr>
+		<tr>
+		<td>Who You Can Vote for on Election Day</td>
+		<td>Voter guides and sample ballots will show who the candidates are and any state or local measures up for a vote. <br>Reviewing them before Election Day can help you decide who to vote for. <br>
+		Visit: <a href="https://www.ballotready.org/">Ballot information</a></td>
+		</tr>
+		<tr>
+		<td>Election Dates</td>
+		<td><b>Please note:</b> Many states have postponed elections due to the coronavirus pandemic.<br>
+		Check with <a href="https://www.usa.gov/election-office">local election office</a></td>
+		</tr>
+		</table>
+		</center>
+	<div>
+</header>
+</body>
+</html>

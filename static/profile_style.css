@@ -1,0 +1,146 @@
+body {
+	font-size: 20px;
+	color: white;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/static/Logo_Vote.png); 
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease; 
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 25%;
+	left: 52%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 100px;
+}
+
+.button{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#header {
+	text-align: center;
+}
+
+.wrapper{
+	position: relative;
+	top: 55%;
+	left: 53%;
+	transform: translate(-50%, -50%);
+	width: 1000px;
+	height: 400px;
+	display: flex;
+	box-shadow: 0 1px 20px 0 rgba(69,90,100,0,08)
+}
+
+.wrapper .leftside{
+	width: 100%;
+	background: linear-gradient(to right, #1c8adb, #1c8adb) ;
+	padding: 30px 25px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	text-align:center;
+	color: #fff;
+}
+
+.wrapper .leftside img{
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.wrapper .leftside h4{
+	margin-bottom: 10px;
+}
+
+.wrapper .leftside p{
+	font-size: 12px;
+}
+
+.wrapper .rightside{
+	width: 105%;
+	background: #fff;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding: 30px 25px;
+}
+
+h3{
+	color: #1c8adb;
+}
+
+button
+{
+	color: #fff;
+	width: 55%;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 15px;
+	margin: 10px 0;
+	cursor: pointer;
+
+}
+
+.calendar-btn
+{
+	background-color: #1c8adb;
+	margin-left: 100px;
+}
+
+.form-btn
+{
+	background-color: #1c8adb;
+	margin-left: 100px;
+}
+
+.petition-btn
+{
+	background-color: #1c8adb;
+	margin-left: 100px;
+}
+
+.logout-btn
+{
+	color: #1c8adb;
+	background-color: #fff;
+}

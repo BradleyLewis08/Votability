@@ -1,0 +1,119 @@
+body {
+	font-size: 20px;
+	color: white;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Logo_Vote.png); 
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease; 
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 25%;
+	left: 52%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 100px;
+}
+
+.button{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#header {
+	text-align: center;
+}
+
+.sign-up-form
+{
+	position: absolute;
+	top: 20%;
+	left: 40%;
+	width: 300px;
+	background: #fff;
+	padding: 20px;
+	margin: 8% auto 0;
+	text-align: center;
+}
+
+.sign-up-form h1
+{
+	color: #1c8adb;
+	margin-bottom: 30px;
+}
+
+.input-box
+{
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10 px;
+	width: 70%;
+	border: 1px solid #999;
+	outline: none;
+}
+
+button
+{
+	color: #fff;
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 15px;
+	margin: 10px 0;
+	cursor: pointer;
+}
+
+p
+{
+	color: #1c8adb;
+}
+
+.signup-btn
+{
+	background-color: #1c8adb;
+}
+
+img
+{
+	width: 70px;
+	margin-top: -50px;
+}

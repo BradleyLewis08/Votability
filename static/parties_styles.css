@@ -1,0 +1,130 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body{
+      margin: 0;
+      padding: 0;
+      font-family: Century Gothic;
+  }
+  
+  header{
+      background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/static/Logo_Vote.png); 
+      height: 100vh;
+      background-position: center;
+  }
+  
+  ul{
+      float: right;
+      list-style-type: none;
+      margin-top: 25px;
+  }
+  
+  ul li{
+      display: inline-block;
+  }
+  
+  ul li a{
+      text-decoration: none;
+      color: #fff;
+      padding: 5px 20px;
+      border: 1px solid transparent;
+      transition: 0.6s ease; 
+  }
+  
+  ul li a:hover{
+      background-color: #fff;
+      color: #000;
+  }
+  
+  ul li.active a{
+      background-color: #fff;
+      color: #000;
+  }
+  
+  .main{
+      max-width: 1200px;
+      margin: auto;
+  }
+  
+  .title{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      height: 300px;
+  }
+  
+  .title h1{
+      color: #fff;
+      font-size: 100px;
+  }
+  .title h3{
+      color: #fff;
+      font-size: 100px;
+  }
+  
+  .button{
+      position: absolute;
+      top: 65%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  }
+  .start{
+      height:650px;
+      letter-spacing: 0;
+          font-weight: normal;
+      position: relative;
+      top: 50%;
+  
+      padding: 0 0 10px 0;
+      font-weight: normal;
+      line-height: 120% !important;
+      color: #FBFBEF;
+      margin: 0;
+      font-size: 24px
+  }
+  #headings{
+    padding: 10px;
+    font-size: 100px;
+  }
+  .democrats{
+      position: relative;
+      top: 40px;
+      height:830px;
+  }
+  .republican{
+      position: relative;
+      top: 40px;
+      height:650px;
+  }
+  .myButton {
+      box-shadow:inset 0px 1px 0px 0px #ffffff;
+      background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+      background-color:#ffffff;
+      border-radius:6px;
+      border:1px solid #dcdcdc;
+      display:inline-block;
+      cursor:pointer;
+      color:#666666;
+      font-family:Arial;
+      font-size:15px;
+      font-weight:bold;
+      padding:6px 24px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #ffffff;
+  }
+  .myButton:hover {
+      background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+      background-color:#f6f6f6;
+  }
+  .myButton:active {
+      position:relative;
+      top:1px;
+  }
+  .info{
+      position:relative;
+      top:100px;
+  }
+  #vote{
+      font-size: 20px;
+  }

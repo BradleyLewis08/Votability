@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login in Form</title>
+<link rel="stylesheet" type="text/css" href="/static/login_style.css" />
+</head>
+	<body>
+	<div class="log-in-form">
+		<img src="/static/user-icon.png">
+		<h1> Login </h1>
+		<form method="POST" action="/login">
+			<input type="email" class="input-box" name="email" placeholder="Email">
+			<input type="password" class="input-box" name="password" placeholder="Password">
+			{% if error != "" %}
+				<p>{{ error }}</p>
+			{% endif %}
+			<hr>
+			<button type ="submit" class="login-btn"> Login </button>
+		<p class="or">OR</p>
+		<button type="button" class="login-btn" onclick="location.href='/signup'"> Create a new Account </button>
+		</form>
+	</div>
+	</body>
+</html>
+
+<html>
+<head>
+	<title>Votability</title>
+	<link rel="stylesheet" type="text/css" href="/static/login_style.css" />
+	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+	<div class="main">
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/about">About</a></li>
+			<li><a href="/navigation">Navigation</a></li>
+			<li><a href="/candidates">Candidates</a></li>
+			<li><a href="/parties">Parties</a></li>
+			<li><a href="/polling">Polling</a></li>
+			<li><a href="/profile">Profile</a></li>
+			<li><a href="/signup">Signup</a></li>
+			<li class="active"><a href="/login">Login</a></li>
+		</ul>
+	</div>
+	</div>
+	<div class="title">
+		<h1>Votability</h1>
+	</div>
+</header>
+</body>
+</html>

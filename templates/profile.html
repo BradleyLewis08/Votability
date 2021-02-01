@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profile</title>
+<link rel="stylesheet" type="text/css" href="/static/profile_style.css" />
+<html>
+<head>
+	<title>Votability</title>
+	<link rel="stylesheet" type="text/css" href="/static/profile_style.css" />
+	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+	<div class="main">
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/about">About</a></li>
+			<li><a href="/navigation">Navigation</a></li>
+			<li><a href="/candidates">Candidates</a></li>
+			<li><a href="/parties">Parties</a></li>
+			<li><a href="/polling">Polling</a></li>
+			<li class="active"><a href="/profile">Profile</a></li>
+		</ul>
+	</div>
+	<div class="title">
+		<h1>Votability</h1>
+	</div>
+</header>
+<div class="wrapper">
+	<div class="leftside">
+		<img src="/static/user-icon.png" alt="user" width="100">
+		<h4>Name: {{ session['name'] }}</h4>
+		<p> Email: {{ session['email'] }} </p>
+		<button type ="button" class="logout-btn" onclick="location.href='/logout'">Log out</button>
+	</div>
+	<div class="rightside">
+		<div class="info">
+			<iframe src="http://free.timeanddate.com/countdown/i7in0j8v/n179/cf12/cm0/cu4/ct0/cs0/ca0/co1/cr0/ss0/cac1c8adb/cpc000/pcfff/tc66c/fn2/fs300/szw256/szh108/tatCountdown%20to%20the%20Election%3A/tac1c8adb/tpc000/iso2020-10-25T00:00:00" allowTransparency="true" frameborder="0" width="447" height="108"></iframe>
+			<hr>
+		<button type ="button" class="calendar-btn">Add to Google Calendar</button>
+		<button type ="button" class="form-btn">Personalized Form</button>
+		<button type ="button" class="petition-btn">Start a Petition</button>
+	</div>
+</div>
+</body>
